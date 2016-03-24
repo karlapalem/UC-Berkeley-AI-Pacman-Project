@@ -1,0 +1,26 @@
+class: "GameScoreTest"
+
+numRuns: "5"
+numWinsForCredit: "4"
+layout_name: "smallHunt"
+min_score: "300"
+
+layout_str: """
+%%%%%%%%%%%%%%%%%%%%
+%P        G        %
+% %%%%% %%%%%% % % %
+%     G            %
+%                  %
+%%%%%%%%%%%%%%%%%%%%
+% % %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+"""
+
+observe: "True"
+elapse: "True"
+maxMoves: "100"
+ghost: "SeededRandomGhostAgent"
+inference: "ParticleFilter"
+numGhosts: "2"
+
+

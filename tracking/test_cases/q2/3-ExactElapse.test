@@ -1,0 +1,34 @@
+class: "DoubleInferenceAgentTest"
+
+seed: "188"
+
+layout: """
+%%%%%%%%%%%
+%% % % % %%
+%    G    %
+%%       %%
+%         %
+%%       %%
+%         %
+%%       %%
+%         %
+%% % % % %%
+%%%%%%%%%%%
+%%%%%%%%P%%
+% %%%%%%%%%
+%%%%%%%%%%%
+"""
+
+observe: "False"
+
+elapse: "True"
+
+checkUniform: "False"
+maxMoves: "200"
+
+numGhosts: "1"
+ghost: "GoSouthAgent"
+errorMsg: "Exact inference elapseTime test: %d inference errors."
+inference: "ExactInference"
+L2Tolerance: "0.0001"
+

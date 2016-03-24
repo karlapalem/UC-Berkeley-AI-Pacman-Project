@@ -1,0 +1,41 @@
+class: "ZeroWeightTest"
+
+seed: "188"
+
+layout: """
+%%%%%
+%P%G%
+%%% %
+%%%G%
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%%%%
+% %%%
+%%%%%
+"""
+
+observe: "True"
+
+elapse: "False"
+
+maxMoves: "100"
+
+numGhosts: "2"
+ghost: "GoSouthAgent"
+inference: "MarginalInference"
+
+

@@ -1,0 +1,42 @@
+class: "ZeroWeightTest"
+
+seed: "188"
+
+layout: """
+%%%%%
+%P%G%
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%% %
+%%%%%
+% %%%
+%%%%%
+"""
+
+observe: "True"
+
+elapse: "False"
+
+maxMoves: "100"
+
+numGhosts: "1"
+
+errorMsg: "Particle filter observe test: %d inference errors."
+ghost: "GoSouthAgent"
+inference: "ParticleFilter"
+

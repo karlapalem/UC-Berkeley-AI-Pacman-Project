@@ -1,0 +1,28 @@
+class: "GameScoreTest"
+
+numRuns: "10"
+numWinsForCredit: "8"
+layout_name: "oneHunt"
+min_score: "100"
+
+layout_str: """
+%%%%%%%%%%
+%    G   %
+%  P     %
+%        %
+%        %
+%        %
+%%%%%%%%%%
+% %%%%%%%%
+%%%%%%%%%%
+"""
+
+observe: "True"
+
+elapse: "False"
+ghost: "SeededRandomGhostAgent"
+inference: "ParticleFilter"
+maxMoves: "100"
+numGhosts: "1"
+
+

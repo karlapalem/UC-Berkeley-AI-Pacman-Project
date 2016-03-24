@@ -1,0 +1,30 @@
+class: "DoubleInferenceAgentTest"
+
+seed: "188"
+
+layout: """
+%%%%%%%%%%%
+%%%%%%%%  %
+%%G%%%%%  %
+%%%%%%%%%%%
+%%%%%P%%%%%
+%%%%%%%%%%%
+%  %%%%%%%%
+%  %%%%%%G%
+%%%%%%%%%%%
+% % %%%%%%%
+%%%%%%%%%%%
+"""
+
+observe: "False"
+
+elapse: "False"
+
+checkUniform: "True"
+maxMoves: "1"
+
+numGhosts: "2"
+ghost: "DispersingSeededGhost"
+inference: "MarginalInference"
+L2Tolerance: "0.05"
+errorMsg: "Joint particle filter initialization test: %d inference errors."
